@@ -89,7 +89,7 @@ async function setStatus(opt) {
 
     if (!opt) {
         statusServerElement.classList.add('red')
-        statusServerElement.innerHTML = `Ferme - 0 ms`
+        statusServerElement.innerHTML = `Fermé - 0 ms`
         document.querySelector('.status-player-count').classList.add('red')
         playersOnline.innerHTML = '0'
         return
@@ -107,7 +107,7 @@ async function setStatus(opt) {
         playersOnline.innerHTML = statusServer.playersConnect
     } else {
         statusServerElement.classList.add('red')
-        statusServerElement.innerHTML = `Ferme - 0 ms`
+        statusServerElement.innerHTML = `Fermé - 0 ms`
         document.querySelector('.status-player-count').classList.add('red')
         playersOnline.innerHTML = '0'
     }
