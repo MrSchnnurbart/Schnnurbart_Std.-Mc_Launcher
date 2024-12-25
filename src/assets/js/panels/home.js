@@ -27,13 +27,13 @@ class Home {
                 blockNews.classList.add('news-block');
                 blockNews.innerHTML = `
                     <div class="news-header">
-                        <img class="server-status-icon" src="assets/images/icon.png">
+                        <img class="server-status-icon" src="assets/images/news.png">
                         <div class="header-text">
                             <div class="title">Aucune news disponible.</div>
                         </div>
                         <div class="date">
-                            <div class="day">1</div>
-                            <div class="month">Janvier</div>
+                            <div class="day"></div>
+                            <div class="month"></div>
                         </div>
                     </div>
                     <div class="news-content">
@@ -49,7 +49,7 @@ class Home {
                     blockNews.classList.add('news-block');
                     blockNews.innerHTML = `
                         <div class="news-header">
-                            <img class="server-status-icon" src="assets/images/icon.png">
+                            <img class="server-status-icon" src="assets/images/news.png">
                             <div class="header-text">
                                 <div class="title">${News.title}</div>
                             </div>
@@ -72,13 +72,13 @@ class Home {
             blockNews.classList.add('news-block');
             blockNews.innerHTML = `
                 <div class="news-header">
-                        <img class="server-status-icon" src="assets/images/icon.png">
+                        <img class="server-status-icon" src="assets/images/server.png">
                         <div class="header-text">
                             <div class="title">Error.</div>
                         </div>
                         <div class="date">
-                            <div class="day">1</div>
-                            <div class="month">Janvier</div>
+                            <div class="day"></div>
+                            <div class="month"></div>
                         </div>
                     </div>
                     <div class="news-content">
