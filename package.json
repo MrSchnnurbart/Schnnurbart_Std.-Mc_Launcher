@@ -1,7 +1,7 @@
 {
     "name": "schnnurbart_std.-mc_launcher",
     "preductname": "Schnnurbart Std.-Minecraft Launcher",
-    "version": "1.0.8b",
+    "version": "1.0.9",
     "description": "Launcher Minecraft pour les serveurs gérés par Schnnurbart Studios.",
     "main": "src/app.js",
     "author": {
