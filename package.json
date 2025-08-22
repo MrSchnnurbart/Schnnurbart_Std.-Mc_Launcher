@@ -9,7 +9,7 @@
         "email": "contact@luuxis.fr, equipes@schnnurbart-studios.fr",
         "url": "https://github.com/luuxis, https://github.com/MrSchnnurbart"
     },
-    "url": "https://launcher.schnnurbart-studios.fr/launcher",
+    "url": "https://launcher.schnnurbart-studios.fr/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
