@@ -34,7 +34,6 @@ class Splash {
             { "message": "I hope you enjoy the island :)", "author": "Cucurucho" },
             { "message": "Ouais mais c'est pas toi qui décide !!!", "author": "Fanta" },
             { "message": "Technoblade Never Dies !!!!!", "author": "Technoblade" },
-            { "message": "Ils savent installer des cheats mais pas TS !", "author": "FuzeIII" },
             {"message": "I yearned for the mines", "author": "Steve"}
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];

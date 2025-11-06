@@ -1,20 +1,20 @@
 {
     "name": "schnnurbart_std.-mc_launcher",
     "preductname": "Schnnurbart Std.-Minecraft Launcher",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "description": "Launcher Minecraft pour les serveurs gérés par Schnnurbart Studios.",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, MrSchnnurbart, Inc.",
-        "email": "contact@luuxis.fr, equipes@schnnurbart-studios.fr",
-        "url": "https://github.com/luuxis, https://github.com/MrSchnnurbart"
+        "name": "luuxis, Schnnurbart Studios",
+        "email": "equipes@schnnurbart-studios.fr",
+        "url": "https://github.com/MrSchnnurbart"
     },
     "url": "https://launcher.schnnurbart-studios.fr/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/MrSchnnurbart/Schnnurbart_Std.-Mc_Launcher/master/src/assets/images/icon.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -23,17 +23,17 @@
     },
     "dependencies": {
         "electron-updater": "^6.1.8",
-        "minecraft-java-core": "^3.10.4",
+        "minecraft-java-core": "^4.1.4",
         "node-bdd": "^2.0.4",
         "node-fetch": "^2.7.0",
         "xml-js": "^1.6.11"
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
-        "electron": "^30.0.9",
-        "electron-builder": "^24.13.3",
+        "electron": "^39.1.0",
+        "electron-builder": "^26.0.12",
         "javascript-obfuscator": "^4.1.0",
-        "jimp": "^0.22.12",
+        "jimp": "^1.6.0",
         "nodemon": "^3.1.2",
         "png2icons": "^2.0.1"
     },
